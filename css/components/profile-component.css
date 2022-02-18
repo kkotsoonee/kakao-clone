@@ -1,19 +1,28 @@
 .profile-component {
-  display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
+.profile-component,
 .profile-component__column:first-child {
   display: flex;
   align-items: center;
-  padding: 15px 20px;
 }
 
 .profile-component__pic {
   width: 70px;
   height: 70px;
-  border-radius: 25px;
+  border-radius: 35%;
   margin-right: 18px;
+}
+
+.profile-component__pic--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.profile-component__pic--sm {
+  width: 60px;
+  height: 60px;
 }
 
 .profile-component__name {
@@ -24,5 +33,13 @@
 .profile-component__subtitle {
   margin-top: 7px;
   font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-component__name--list {
+  font-weight: 400;
+}
+
+.profile-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
