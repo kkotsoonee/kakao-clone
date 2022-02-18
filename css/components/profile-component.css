@@ -1,0 +1,28 @@
+.profile-component {
+  display: flex;
+  align-items: center;
+}
+
+.profile-component__column:first-child {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.profile-component__pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-right: 18px;
+}
+
+.profile-component__name {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.profile-component__subtitle {
+  margin-top: 7px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}

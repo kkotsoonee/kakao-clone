@@ -1,0 +1,12 @@
+#friend-name-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf9fa;
+  padding: 15px 0px;
+  font-size: 14px;
+}
+
+#friend-name-info i {
+  color: rgba(0, 0, 0, 0.3);
+}
