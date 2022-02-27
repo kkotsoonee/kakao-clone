@@ -6,10 +6,27 @@
   padding: var(--horizontal-space);
 }
 
-.screen-hader__title {
+.screen-header__title {
   font-size: 28px;
   font-weight: 600;
 }
 .screen-header__icons span {
   margin-left: 20px;
+}
+
+
+@keyframes rotateCog {
+  from{
+transform: none;
+  }
+
+  to{
+
+    transform: rotatez(360deg);
+
+  }
+  
+}
+.screen-header__icons .fa-gear:hover{
+  animation: rotateCog 2s linear infinite;
 }
